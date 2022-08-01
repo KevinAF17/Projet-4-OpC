@@ -677,8 +677,19 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 14px;
 }
+
+.citation {
+    font-style: italic;
+    font-size: 20px;
+}
+
+.pdg {
+    margin-top: 25px;
+    font-size: 20px;
+}
+
 
 .tight-width-whitespace {
     max-width: 600px;
