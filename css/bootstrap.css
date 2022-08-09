@@ -2011,6 +2011,7 @@ pre code {
 }
 
 .row {
+    display: flex;
     margin-right: -15px;
     margin-left: -15px
 }
@@ -2796,6 +2797,8 @@ pre code {
     .col-lg-offset-0 {
         margin-left: 0
     }
+    .col-sm-6 {
+      width: 100%;
 }
 
 table {
