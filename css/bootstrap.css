@@ -1427,7 +1427,8 @@ figure {
 }
 
 img {
-    vertical-align: middle
+    vertical-align: middle;
+    width: 125px;
 }
 
 .carousel-inner>.item>a>img,
@@ -2014,6 +2015,12 @@ pre code {
     display: flex;
     margin-right: -15px;
     margin-left: -15px
+}
+
+@media (max-width:767px) {
+    .row {
+        flex-direction: column;
+    }
 }
 
 .col-lg-1,
@@ -7685,10 +7692,10 @@ button.close {
     margin: 1px;
     text-indent: -999px;
     cursor: pointer;
-    background-color: #000\9;
+    background-color: #000 \9;
     background-color: rgba(0, 0, 0, 0);
     border: 1px solid #fff;
-    border-radius: 10px
+    border-radius: 10px;
 }
 
 .carousel-indicators .active {
@@ -8077,4 +8084,4 @@ button.close {
     .hidden-print {
         display: none !important
     }
-}
+}}
