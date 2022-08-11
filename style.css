@@ -312,10 +312,13 @@ a:hover {
 }
 
 .navbar .nav {
+    width: 200px;
     padding-top: 2px;
     margin-right: -16px;
     float: right;
     z-index: 1;
+    display: flex;
+    justify-content: space-between;   
 }
 
 .nav > li {
@@ -656,6 +659,20 @@ label{
     color: #FFFFFF;
 }
 
+@media (max-width: 767px){
+label{  
+    display: flex;
+    flex-direction: column;
+}
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+    label{  
+        display: flex;
+        flex-direction: column;
+    }
+}
+
 .container {
     max-width: 1000px;
 }
@@ -686,6 +703,13 @@ p {
     color: #FFFFFF;
     font-size: 16px;
     margin-top: 15px;
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+.contact{
+    width: 250px;
+    margin-left: 20px;
+}
 }
 
 .citation {
@@ -792,7 +816,7 @@ h4 {
 
 @media (max-width: 767px){
     .black-background {
-        height : 200px;
+        height : 670px;
     } 
 }
 
@@ -885,13 +909,29 @@ h4 {
     }
 }
 
+.bg-banniere2 {
+    background-image: url("img/agence-la-panthere.webp");
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+    .bg-banniere2 {
+        height: 475px;
+    }
+}
+
+@media (max-width: 767px) {
+    .bg-banniere2 {
+        height: 600px;
+    }
+}
+
 .bg-presentation {
     background-image: url("img/image-de-presentation.webp");
 }
 
 @media (max-width: 767px) {
     .bg-presentation {
-        height: 550px;
+        height: 745px;
     }
 }
 
@@ -917,7 +957,8 @@ h4 {
 
 @media (max-width: 992px) and (min-width: 768px) {
     .navbar .nav {
-        max-width: 80%
+        max-width: 80%;
+        margin-right: 10px;
     }
     .nav-center.navbar .nav {
         max-width: 100%
@@ -1087,6 +1128,8 @@ h4 {
         margin-top: 30px;
     }
     form {
+        display: flex;
+        flex-direction: column;
         padding: 5px;
     }
     .close-lightbox {
@@ -1102,6 +1145,15 @@ h4 {
         width: 180px;
         height: 320px;
     }
+}
+
+@media (max-width: 767px) {
+    form {
+        display: flex;
+        flex-direction: column;
+        padding: 5px;
+        width: 370px;
+}
 }
 
 @media (max-width: 400px) {
