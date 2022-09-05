@@ -1991,7 +1991,7 @@ pre code {
     }
 }
 
-@media (min-width:992px) {
+@media (min-width:1198px) {
     .container {
         width: 970px
     }
@@ -2074,6 +2074,22 @@ pre code {
     min-height: 1px;
     padding-right: 15px;
     padding-left: 15px
+}
+
+@media (max-width: 767px) {
+    .col-sm-12 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1198px) {
+    .col-sm-12 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 }
 
 .col-xs-1,
@@ -2465,7 +2481,7 @@ pre code {
     }
 }
 
-@media (min-width:992px) {
+@media (min-width:1198px) {
     .col-md-1,
     .col-md-10,
     .col-md-11,
@@ -3204,7 +3220,7 @@ input[type=search] {
     -webkit-appearance: none
 }
 
-@media screen and (-webkit-min-device-pixel-ratio:0) {
+@media screen and (-webkit-min-pixel-ratio:0) {
     input[type=date].form-control,
     input[type=time].form-control,
     input[type=datetime-local].form-control,
@@ -5133,7 +5149,7 @@ textarea.input-group-sm>.input-group-btn>.btn {
     max-height: 340px
 }
 
-@media (max-device-width:480px) and (orientation:landscape) {
+@media (max-width:480px) and (orientation:landscape) {
     .navbar-fixed-bottom .navbar-collapse,
     .navbar-fixed-top .navbar-collapse {
         max-height: 200px
@@ -7211,7 +7227,7 @@ button.close {
     }
 }
 
-@media (min-width:992px) {
+@media (min-width:1198px) {
     .modal-lg {
         width: 900px
     }
@@ -7937,7 +7953,7 @@ button.close {
     }
 }
 
-@media (min-width:992px) and (max-width:1199px) {
+@media (min-width:1198px) and (max-width:1199px) {
     .visible-md {
         display: block !important
     }
@@ -7953,19 +7969,19 @@ button.close {
     }
 }
 
-@media (min-width:992px) and (max-width:1199px) {
+@media (min-width:1198px) and (max-width:1199px) {
     .visible-md-block {
         display: block !important
     }
 }
 
-@media (min-width:992px) and (max-width:1199px) {
+@media (min-width:1198px) and (max-width:1199px) {
     .visible-md-inline {
         display: inline !important
     }
 }
 
-@media (min-width:992px) and (max-width:1199px) {
+@media (min-width:1198px) and (max-width:1199px) {
     .visible-md-inline-block {
         display: inline-block !important
     }
@@ -8017,7 +8033,7 @@ button.close {
     }
 }
 
-@media (min-width:992px) and (max-width:1199px) {
+@media (min-width:1198px) and (max-width:1199px) {
     .hidden-md {
         display: none !important
     }
