@@ -28,7 +28,6 @@ a:hover {
 }
 
 .bloc {
-    width: 100%;
     clear: both;
     background: 50% 50% no-repeat;
     padding: 0 50px;
@@ -91,6 +90,7 @@ a:hover {
 }
 
 .texture-paper::before {
+    display: none;
     background: url("img/texture-paper.png");
     background-size: 280px 280px;
 }
@@ -320,6 +320,8 @@ a:hover {
     display: flex;
     justify-content: space-between;   
 }
+
+
 
 .nav > li {
     float: left;
@@ -656,7 +658,7 @@ a {
 label{
     font-family: "helvetica";
     font-weight: 400;
-    color: #FFFFFF;
+    color: #000000;
 }
 
 @media (max-width: 767px){
@@ -1143,6 +1145,7 @@ h4 {
         display: flex;
         flex-direction: column;
         padding: 5px;
+        margin-left: auto;
     }
     .close-lightbox {
         display: inline-block;
